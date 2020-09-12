@@ -123,7 +123,6 @@ function test_input($data) {
   </span>
   <br><br>
   <input type="submit" name="submit" value="Submit"> 
-  <input type = "reset">
 </form>
 
 <?php
