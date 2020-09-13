@@ -15,7 +15,7 @@
 // define variables and set to empty values
 $nameErr = $emailErr = $genderErr = $websiteErr = "";
 $name = $email = $gender = $comment = $website = "";
-// if the user input is valid the variable will be set to true and the asterisk will not be shown
+// if the user input is invalid the variable will be set to false
 $validName = $validEmail = $validGender = true;
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
